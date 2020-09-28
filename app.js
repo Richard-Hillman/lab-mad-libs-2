@@ -13,7 +13,7 @@ const input5 = document.getElementById('input-five');
 const input6 = document.getElementById('input-six');
 const input7 = document.getElementById('input-seven');
 const input8 = document.getElementById('input-eight');
-const input9 = document.getElementById('input-nine');
+// const input9 = document.getElementById('input-nine');
 const button = document.getElementById('button');
 const madLib = document.getElementById('mad-lib');
 
@@ -27,7 +27,7 @@ const result5 = document.getElementById('result-5');
 const result6 = document.getElementById('result-6');
 const result7 = document.getElementById('result-7');
 const result8 = document.getElementById('result-8');
-const result9 = document.getElementById('result-9');
+// const result9 = document.getElementById('result-9');
 
 button.addEventListener('click', () => { 
   
@@ -42,7 +42,7 @@ button.addEventListener('click', () => {
     result6.textContent = input6.value;
     result7.textContent = input7.value;
     result8.textContent = input8.value;
-    result9.textContent = input9.value;
+    // result9.textContent = input9.value;
 
     inputSection.style.display = 'none';
     madLib.style.display = 'block';
